@@ -1,0 +1,19 @@
+
+.modified-paragraph {
+    color: blue;
+    font-size: 18px;
+}
+
+.modified-div {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    max-width: 100%;   /* Prevents the image from overflowing horizontally */
+    max-height: 100vh; /* Prevents vertical overflow */
+    object-fit: cover;
+}
